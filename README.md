@@ -8,3 +8,4 @@ grid that would: </br>
   separate css to create the subgrids.</br>
   <b>third</b> make a clean html with each monitor clearly separated so anyone could
   make changes without tracing through files of code.
+  
