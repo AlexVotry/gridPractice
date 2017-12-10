@@ -1,0 +1,69 @@
+
+  .monitor1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    grid-template-areas:
+        "topLeft right"
+        "bottomLeft right";
+    .topLeft {
+      background-color: purple;
+      color: #fff;
+      grid-area: topLeft;
+    }
+    .bottomLeft {
+      background-color: silver;
+      grid-area: bottomLeft;
+    }
+    .right {
+      background-color: orange;
+      grid-area: right;
+    }
+  }
+  .monitor2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas:
+        "left right right"
+        "left right right";
+    .left {
+      background-color: purple;
+      color: #fff;
+      grid-area: left;
+    }
+    .right {
+      background-color: grey;
+      grid-area: right;
+    }
+  }
+  .monitor3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas:
+      "top top top top"
+      "main main . aside"
+      "main main info aside"
+      "footer footer footer footer";
+    .top {
+      background-color: pink;
+      grid-area: top;
+    }
+    .main {
+      background-color: blue;
+      grid-area: main;
+    }
+    .aside {
+      background-color: yellow;
+      grid-area: aside;
+    }
+    .footer {
+      background-color: black;
+      color: #fff;
+      grid-area: footer;
+    }
+  }
