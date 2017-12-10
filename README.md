@@ -9,5 +9,5 @@ grid that would: </br>
   <b>third</b> make a clean html with each monitor clearly separated so anyone could
   make changes without tracing through files of code.
   
-gridPractice.png
+
 ![gridPractice](https://github.com/AlexVotry/gridPractice/blob/master/gp/src/assets/gridPractice.png "screen shot")
